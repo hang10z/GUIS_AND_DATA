@@ -3,7 +3,7 @@ def read_depots(file):
     depots_f = open(file)
     for line in depots_f:
         depots.append(line.rstrip('\n'))
-        return depots
+    return depots
 
 
 options = read_depots('depots.txt')
